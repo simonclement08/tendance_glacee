@@ -1,6 +1,7 @@
 body {
     background-color: #F8c5Cf !important;
     font-family: "SoleilRegular" !important;
+    color: #E5161F !important;
 }
 
 #logo {
@@ -15,9 +16,12 @@ body {
     height: auto;
 }
 
+#footer {
+    width: 100%;
+    height: auto;
+}
+
 #content {
-    background-color: #f6e6d2 !important;
-    margin: 10px;
     border-radius: 10px;
     padding: 10px;
 }
@@ -37,6 +41,7 @@ h2,
 h3,
 a {
     font-family: "SoleilBold";
+    color: #E5161F !important;
 }
 
 #header {
@@ -81,4 +86,15 @@ header a:active,
         left: 50%;
         transform: translate(+15%, 0);
     }
+}
+
+.btn,
+input,
+textarea {
+    background-color: #f6e6d2 !important;
+}
+
+#map {
+    height: 350px;
+    width: 90%;
 }
