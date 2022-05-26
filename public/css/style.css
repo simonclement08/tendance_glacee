@@ -21,7 +21,8 @@ body {
     height: 200px;
 }
 
-#footer {
+#footer,
+.portrait {
     width: 100%;
     height: auto;
 }
@@ -102,4 +103,9 @@ textarea {
 #map {
     height: 350px;
     width: 90%;
+}
+
+.text-justify {
+    margin: 0;
+    text-align: justify;
 }
