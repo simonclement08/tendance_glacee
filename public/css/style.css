@@ -2,6 +2,11 @@ body {
     background-color: #F8c5Cf !important;
     font-family: "SoleilRegular" !important;
     color: #E5161F !important;
+    font-size: 20px !important;
+}
+
+#main {
+    margin-top: 30px;
 }
 
 #logo {
@@ -19,9 +24,16 @@ body {
 .gallery {
     width: 200px;
     height: 200px;
+    border-radius: 5px;
+    box-shadow: 11px 9px 16px 0px #f87d95;
 }
 
-#footer,
+#footer {
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+}
+
 .portrait {
     width: 100%;
     height: auto;
@@ -108,4 +120,19 @@ textarea {
 .text-justify {
     margin: 0;
     text-align: justify;
+}
+
+label {
+    padding: 7px;
+    margin-top: 1px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    padding-bottom: 20px;
 }
