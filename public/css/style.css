@@ -13,7 +13,7 @@ body {
     width: 100%;
     height: auto;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 #logo_nav {
@@ -154,4 +154,20 @@ label {
     width: auto !important;
     height: 200px !important;
     display: inline;
+}
+
+.header_div {
+    background-image: url("../image/cover.png");
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: cover;
+    margin: 0px !important;
+}
+
+#affiche {
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 11px 9px 16px 0px #f87d95;
+    margin-bottom: 200px !important;
 }
