@@ -136,3 +136,22 @@ label {
 .title {
     padding-bottom: 20px;
 }
+
+.box-content {
+    background-color: #f6e6d2;
+    border-radius: 5px;
+    box-shadow: 11px 9px 16px 0px #f87d95;
+    max-height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.image-content {
+    border-radius: 5% 10%;
+    width: auto !important;
+    height: 200px !important;
+    display: inline;
+}
